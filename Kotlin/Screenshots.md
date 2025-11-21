@@ -6,3 +6,10 @@ Here is a conceptual UI mockup for the Order List Screen and a simplified Order 
 
 
 ![°](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/1763767846970.jpg "$")
+
+
+___
+
+Fantastic! Secure authentication and comprehensive profile management are indeed the backbone of a robust seller application.
+Here is a conceptual UI mockup for the Login Screen and the main Profile Screen within the C500 Sellers Marketplace Native Android App. I've designed them to be clean, intuitive, and secure, adhering to Material Design principles while maintaining our app's visual style.
+
