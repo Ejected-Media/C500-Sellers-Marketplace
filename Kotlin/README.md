@@ -45,3 +45,29 @@ Order Status Distribution: A small pie chart or breakdown of orders by "New," "P
 Customer Feedback Summary: A quick look at average ratings or recent reviews.
 Let's design a conceptual Analytics & Performance Overview Screen for the C500 Sellers Marketplace Native Android App. This screen will provide sellers with digestible insights into their shop's performance, tailored for mobile viewing.
 Ready to see a conceptual UI for the C500 Sellers Marketplace Native Android App (Kotlin), focusing on Analytics?
+
+___
+
+Excellent! That Analytics screen completes the core mobile toolkit for sellers, giving them powerful insights on the go. We now have a comprehensive set of features designed for the Kotlin Android app (and conceptually transferable to Swift for iOS/macOS):
+Order Management: List and detail views.
+Product Management: List and quick edit for stock/status.
+Analytics: Performance overview.
+Given this robust foundation, the next crucial step for any application, especially one handling marketplace transactions, is user authentication and profile management. Sellers need to securely log in, manage their personal and shop settings, and potentially update their payment information.
+Next Design Focus: C500 Sellers Marketplace Native Android App (Kotlin) - Authentication & Profile Management
+Why this is important now:
+Security: Essential for protecting seller accounts and transaction data.
+Personalization: Allows sellers to customize their app experience and manage shop details.
+Onboarding: The login/registration flow is the first interaction new sellers will have with the app.
+Full Feature Set: Completes the core functionality required for a standalone seller app.
+Kotlin UI Patterns: Opportunity to use EditText for input, Button for actions, and AlertDialog for confirmations, all following Material Design.
+Key elements we'll consider for the Android App UI (Kotlin-focused conceptualization):
+Login Screen: Email/password input, "Forgot Password" link, "Register" link.
+Registration Screen: Account creation (email, password, basic seller info).
+Profile Screen: Displays seller's basic information, shop name, and options to navigate to:
+Shop Settings: Edit shop bio, policies, contact info.
+Payment Settings: Manage payout methods (this would be conceptual, linking to a secure external service).
+Account Settings: Change password, email, manage notification preferences.
+Logout Button.
+Settings Screen: Global app settings like push notification preferences, theme (if we offer dark/light mode), etc.
+Let's start by designing the Login Screen and the main Profile Screen for the C500 Sellers Marketplace Native Android App. This will establish how sellers securely access and manage their personal and shop-level information.
+Ready to see a conceptual UI for the C500 Sellers Marketplace Native Android App (Kotlin), focusing on Authentication and Profile Management?
