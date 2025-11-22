@@ -5,7 +5,7 @@
 
 ![°](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/1763765281174.jpg "$")
 
-
+![°](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/1763769844697.jpg "$")
 
 ![°](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/1763766478779.jpg "$")
 
