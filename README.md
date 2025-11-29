@@ -1,45 +1,45 @@
 # C500-Sellers-Marketplace
 ~
-![°](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/1763766058487.jpg "$")
+![°](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/pics/1763766058487.jpg "$")
 
 
-![°](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/1763765281174.jpg "$")
+![°](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/pics/1763765281174.jpg "$")
 
-![°](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/1763771351429.jpg "$")
-
-
-![°](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/1763769844697.jpg "$")
-
-![°](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/1763770522799.jpg "$")
+![°](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/pics/1763771351429.jpg "$")
 
 
-![°](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/1763770918793.jpg "$")
+![°](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/pics/1763769844697.jpg "$")
 
-![°](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/1763771088516.jpg "$")
-
-
-![°](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/1763771765901.jpg "$")
+![°](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/pics/1763770522799.jpg "$")
 
 
+![°](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/pics/1763770918793.jpg "$")
 
-![°](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/1763766478779.jpg "$")
+![°](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/pics/1763771088516.jpg "$")
+
+
+![°](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/pics/1763771765901.jpg "$")
+
+
+
+![°](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/pics/1763766478779.jpg "$")
 
 __
 
-![°](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/1763766765593.jpg "$")
+![°](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/pics/1763766765593.jpg "$")
 
 
-![°](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/1763757299116.jpg "$")
-![°](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/1763759432372.jpg "$")
-![°](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/1763764148882.jpg "$")
-![°](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/1763764394400.jpg "$")
-![°](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/1763764581346.jpg "$")
+![°](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/pics/1763757299116.jpg "$")
+![°](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/pics/1763759432372.jpg "$")
+![°](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/pics/1763764148882.jpg "$")
+![°](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/pics/1763764394400.jpg "$")
+![°](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/pics/1763764581346.jpg "$")
 
 .
-![Alt text](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/1763572977919.jpg "Optional Title")
-![Alt text](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/1763573699347.jpg "Optional Title")
-![Alt text](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/1763573881687.jpg "Optional Title")
-![Alt text](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/1763574066836.jpg "Optional Title")
+![Alt text](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/pics/1763572977919.jpg "Optional Title")
+![Alt text](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/pics/1763573699347.jpg "Optional Title")
+![Alt text](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/pics/1763573881687.jpg "Optional Title")
+![Alt text](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/pics/1763574066836.jpg "Optional Title")
 
 
 .
