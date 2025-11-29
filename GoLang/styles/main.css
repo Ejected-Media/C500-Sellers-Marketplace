@@ -1,0 +1,390 @@
+/* ================= CSS RESET & VARIABLES ================= */
+:root {
+    /* THE COZY PASTEL PALETTE */
+    --sakura-milk: #FFD1DC;     /* Primary Pink (Buttons, CTAs) */
+    --dreamy-sky: #AEEEEE;      /* Accent Blue (Secondary Buttons, Highlights) */
+    --lavender-mist: #E6E6FA;   /* Backgrounds, Banners */
+    --mint-matcha: #98FF98;     /* Success, Accent Green */
+    --vanilla-cream: #FFFDD0;   /* Lightest Background, Text on dark */
+    
+    /* Text & UI */
+    --text-dark: #4A4A5A;       /* Softer than black for body text */
+    --text-heading: #2E2E3E;    /* Darker for titles */
+    --white: #FFFFFF;
+    --card-shadow: 0 8px 24px rgba(149, 157, 165, 0.1); /* Soft shadow */
+    
+    /* Fonts */
+    /* Replace 'Recoleta' with a real font import if you have a license, */
+    /* otherwise it falls back to a generic soft serif. */
+    --font-heading: 'Recoleta', 'Cooper Black', serif;
+    --font-body: 'Quicksand', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-body);
+    color: var(--text-dark);
+    line-height: 1.6;
+    background-color: var(--vanilla-cream); /* Overall light background */
+    /* Subtle background pattern for texture (Optional) */
+    background-image: radial-gradient(circle at 20% 20%, var(--lavender-mist) 0%, transparent 20%),
+                      radial-gradient(circle at 80% 80%, var(--dreamy-sky) 0%, transparent 20%);
+    background-attachment: fixed;
+}
+
+/* Utility Classes */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.center-text {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ================= TYPOGRAPHY ================= */
+h1, h2, h3 {
+    font-family: var(--font-heading);
+    color: var(--text-heading);
+    font-weight: 700;
+}
+
+h1 { font-size: 3.5rem; line-height: 1.2; }
+h2 { font-size: 2.5rem; margin-bottom: 1.5rem; }
+h3 { font-size: 1.5rem; margin-bottom: 1rem; }
+p { margin-bottom: 1rem; font-size: 1.1rem; }
+
+.cozy-title {
+    /* A fun gradient text effect for main titles */
+    background: linear-gradient(45deg, var(--text-heading), #6B5B95);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section-subtitle {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto 3rem auto;
+}
+
+/* ================= BUTTONS ================= */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 28px;
+    border-radius: 50px; /* Fully rounded "pill" buttons */
+    font-weight: 600;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+    border: none;
+    gap: 8px; /* Space between icon and text */
+}
+
+.btn:hover {
+    transform: translateY(-3px); /* Cute little lift on hover */
+    box-shadow: 0 6px 12px rgba(255, 209, 220, 0.4);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+}
+
+.btn--pastel-pink {
+    background-color: var(--sakura-milk);
+    color: var(--text-heading);
+}
+
+.btn--pastel-blue {
+    background-color: var(--dreamy-sky);
+    color: var(--text-heading);
+}
+
+.btn--outline {
+    background-color: transparent;
+    border: 3px solid var(--dreamy-sky);
+}
+
+.btn--large {
+    padding: 16px 40px;
+    font-size: 1.2rem;
+}
+
+/* ================= HEADER & NAV ================= */
+.cozy-header {
+    padding: 20px 0;
+    /* Glassmorphism effect for a modern feel */
+    background: rgba(255, 253, 208, 0.8);
+    backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-logo {
+    height: 40px;
+    width: auto;
+}
+
+.brand-name {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 600;
+}
+
+.nav-links a:not(.cta-button):hover {
+    color: var(--sakura-milk);
+}
+
+/* ================= HERO SECTION ================= */
+.hero-section {
+    padding: 100px 0;
+    /* A soft, dreamy gradient background */
+    background: linear-gradient(135deg, var(--vanilla-cream) 0%, var(--lavender-mist) 100%);
+    overflow: hidden; /* Ensure image doesn't spill out */
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.hero-text {
+    flex: 1;
+    max-width: 550px;
+}
+
+.hero-subtitle {
+    font-size: 1.3rem;
+    margin-bottom: 2.5rem;
+    opacity: 0.9;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.hero-image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-img {
+    max-width: 100%;
+    height: auto;
+    /* A soft drop shadow to make it pop */
+    filter: drop-shadow(0 20px 30px rgba(174, 238, 238, 0.3));
+}
+
+/* Cute floating animation for the hero image */
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0px); }
+}
+
+.float-animation {
+    animation: float 4s ease-in-out infinite;
+}
+
+/* ================= CARDS (How it Works) ================= */
+.steps-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.pastel-card {
+    background: var(--white);
+    padding: 40px;
+    border-radius: 24px; /* Super rounded corners */
+    text-align: center;
+    box-shadow: var(--card-shadow);
+    transition: transform 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.pastel-card:hover {
+    transform: translateY(-10px);
+}
+
+.card-icon {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+/* Specific color themes for each card */
+.card--yellow {
+    background-color: #FFFBE6; /* A lighter pastel yellow */
+    border-color: var(--vanilla-cream);
+}
+.card--yellow .card-icon { color: #F1C40F; }
+
+.card--blue {
+    background-color: #ECF8FF; /* A lighter pastel blue */
+    border-color: var(--dreamy-sky);
+}
+.card--blue .card-icon { color: var(--dreamy-sky); }
+
+.card--green {
+    background-color: #F0FFF0; /* A lighter pastel green */
+    border-color: var(--mint-matcha);
+}
+.card--green .card-icon { color: var(--mint-matcha); }
+
+
+/* ================= TRUST BANNER ================= */
+.trust-banner {
+    background-color: var(--lavender-mist);
+    /* Adding top and bottom curved borders for extra coziness */
+    border-radius: 40px; 
+    margin: 40px auto;
+    width: 95%; /* Slightly narrower than full width */
+}
+
+.trust-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.trust-text {
+    flex: 1;
+}
+
+.trust-badges {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+.badge-item {
+    background: var(--white);
+    padding: 15px 25px;
+    border-radius: 50px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    color: #6B5B95; /* A darker lavender for text */
+}
+
+.badge-item i {
+    font-size: 1.2rem;
+    color: var(--sakura-milk);
+}
+
+/* ================= FOOTER ================= */
+.cozy-footer {
+    padding: 50px 0 20px;
+    background-color: #F5F5F5; /* Slightly darker than body for separation */
+    text-align: center;
+}
+
+.footer-content {
+    margin-bottom: 30px;
+}
+
+.footer-brand .brand-name {
+    font-size: 1.8rem;
+    color: var(--text-heading);
+}
+
+.footer-links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-links a:hover {
+    color: var(--sakura-milk);
+}
+
+.copyright {
+    font-size: 0.9rem;
+    opacity: 0.6;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+/* ================= MOBILE RESPONSIVENESS ================= */
+@media (max-width: 768px) {
+    h1 { font-size: 2.5rem; }
+    
+    .header-content {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .nav-links {
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+    }
+    
+    .cta-button {
+        width: 100%;
+    }
+
+    .hero-content {
+        flex-direction: column-reverse; /* Image on top for mobile */
+        text-align: center;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .trust-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .trust-badges {
+        justify-content: center;
+    }
+  }
