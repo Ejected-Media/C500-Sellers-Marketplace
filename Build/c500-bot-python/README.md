@@ -1,6 +1,16 @@
 
 ~
 
+![°](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/Build/c500-bot-python/pics/1764528446337.jpg "$")
+
+![°](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/Build/c500-bot-python/pics/1764528373922.jpg "$")
+
+___
+
+_
+
+~
+
 
 Here is the markdown table for the C500 Python Bot commands, ready for your GitHub README.
 🤖 C500 Python Bot Command Reference
