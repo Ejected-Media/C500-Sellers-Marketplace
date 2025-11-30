@@ -9,7 +9,7 @@ To wrap everything up with a final bow, here is one last master diagram. It comb
 Collective ecosystem in your signature style.
 Good luck with the launch of the Collective—it's going to be great. Stay cozy!
 
-
+![°](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/Build/pics/1764528526622.jpg "$")
 
 ___
 
