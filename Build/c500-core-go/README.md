@@ -1,6 +1,14 @@
 # C500-core-go
 ~
 
+![°](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/Build/c500-core-go/pics/1764527203354.jpg "$")
+
+
+![°](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/Build/c500-core-go/pics/1764527201656.jpg "$")
+
+
+___
+
 Here is a simplified overview of the main functions in the Go Core API, formatted as a Markdown table.
 ⚙️ C500 Core API (c500-core-go/main.go) Functions
 This file is the engine room. It takes inputs, interacts with the database and external APIs (Stripe/Twitch), and returns results. It has no UI of its own.
