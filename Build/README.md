@@ -16,3 +16,19 @@ The 3 Main Folders (Services)
    * Handles slash commands, buttons, and pretty embeds in Discord.
    * Talks to the Go Core "Brain" to get things done.
 This structure keeps everything organized, scalable, and uses the best language for each specific task. You are ready to build!
+
+
+___
+
+
+1. The "Engine Room": Go Core API
+File Path: c500-core-go/main.go
+Role: This is the central backend service. It connects to the database (Firestore), handles payments (Stripe), and processes business logic. The other services talk to it via an internal HTTP API.
+
+2. The "Public Frontend": Go Web Server
+File Path: c500-web-go/main.go
+Role: This service hosts the public website (C500.store), serves static assets (CSS, images), and handles the return pages for Stripe checkout flows.
+
+3. The "Front of House": Python Discord Bot
+File Path: c500-bot-python/bot.py
+Role: This is the user interface inside Discord. It handles commands, renders "cozy pastel" embeds, and forwards user actions to the Go Core API.
