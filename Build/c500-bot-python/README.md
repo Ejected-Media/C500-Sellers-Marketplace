@@ -1,6 +1,22 @@
 
 ~
 
+
+Here is the markdown table for the C500 Python Bot commands, ready for your GitHub README.
+🤖 C500 Python Bot Command Reference
+
+
+| Command / Function | Triggered By | Simplified Purpose |
+|---|---|---|
+| setup_hook | Bot Startup | Automatically syncs slash commands to the test server for instant availability. |
+| /c500 drop | Builder (Slash Command) | Opens a pop-up modal form for a builder to create a new product listing. |
+| DropModal.on_submit | Builder (Modal Submit) | Submits drop details to the Go API to create the item, then posts the product embed to the Discord channel. |
+| BuyView.buy_callback | Buyer (Button Click) | Requests a secure Stripe checkout link from the Go API and sends it to the buyer in a private DM. |
+| /c500 setup | Builder (Slash Command) | Requests a unique Stripe Express onboarding link from the Go API and DM's it to the builder. |
+| /c500 dashboard | Builder (Slash Command) | Fetches sales and escrow stats from the Go API and displays them in a private, pastel-themed embed. |
+| /c500 live | Builder (Slash Command) | Triggers a "go live" event (e.g., for stream verification) by passing the command context to the Go backend. |
+
+
 ___
 
 Here is the technical overview for the C500 
