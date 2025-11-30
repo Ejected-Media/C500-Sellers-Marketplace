@@ -1,3 +1,24 @@
+# C500-core-go
+~
+
+Here is a simplified overview of the main functions in the Go Core API, formatted as a Markdown table.
+⚙️ C500 Core API (c500-core-go/main.go) Functions
+This file is the engine room. It takes inputs, interacts with the database and external APIs (Stripe/Twitch), and returns results. It has no UI of its own.
+
+| Function Name / Route | Triggered By | Simplified Purpose |
+|---|---|---|
+| handleCreateItem | Builder (via Python Bot) | Receives drop details (title, price, image) and saves them into the database as a new, available product. |
+| handleCreateCheckoutSession | Buyer (via Python Bot) | Generates the unique, secure Stripe payment link that automatically handles the 90/10 split. |
+| handleCreateOnboardingLink | Builder (via Python Bot) | Creates the secure Stripe Express link so a builder can connect their bank account to get paid. |
+| handleGetDashboard | Builder (via Python Bot) | Calculates total sales, pending orders, and active listings for a builder's private stats view. |
+| handleGoLiveTrigger | Builder (via Python Bot) | Checks the real Twitch API to verify a builder is actually streaming to fulfill the "Proof of Work." |
+| handleStripeWebhook | Stripe (External) | A secure listener that waits for Stripe to confirm a payment, then automatically marks the item as "Sold" in the database. |
+| convertPriceStringToCents | (Helper Function) | Safely converts human prices (like "$450.00") into machine-safe integers (like 45000 cents) for financial math. |
+
+
+___
+
+
 This is a great way to visualize the "engine room" of your operation.
 The c500-core-go/main.go file is the central nervous system. It doesn't have a user interface; its only job is to listen for instructions, talk to the database (Firestore), handle money (Stripe), and check external facts (Twitch).
 Here is a human-readable outline of its main functions, grouped by responsibility.
