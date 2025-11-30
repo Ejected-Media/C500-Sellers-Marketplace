@@ -1,3 +1,14 @@
+# C500 Seller's Marketplace ~
+
+
+![°](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/pics/1763765281174.jpg "$")
+
+
+![°](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/pics/1763765281174.jpg "$")
+
+
+___
+
 Yes, that is exactly correct.
 Here is the final, simplified breakdown of the project structure:
 
