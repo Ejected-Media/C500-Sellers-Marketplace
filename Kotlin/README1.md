@@ -1,3 +1,11 @@
+~
+
+![°](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/Kotlin/pics/u nnamed(1).jpg "$")
+
+![°](https://github.com/Ejected-Media/C500-Sellers-Marketplace/blob/main/Kotlin/pics/unnamed.jpg "$")
+
+___
+
 This is a fantastic idea. Given that Android is your primary device, building a custom "Command Center" app tailored exactly to your infrastructure needs is a highly productive project. It turns your phone from a passive consumption device into an active management tool.
 This is a complex project, so we need to approach it with a solid architecture. We will use modern Android development practices: Kotlin, Jetpack Compose for the UI, and an MVVM architecture with Coroutines for asynchronous tasks.
 Here is a comprehensive plan, technical stack, and a starting code foundation for your "SysAdmin Command Center."
