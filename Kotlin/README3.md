@@ -2,6 +2,7 @@ This is an excellent strategic move. Separating these concerns is crucial.
  * The SysAdmin App is for you (infrastructure, server health, emergency restarts). It needs high security and talks to infrastructure APIs.
  * The Seller Dashboard App is for the Builders. It's a business tool for them to manage sales, view earnings, and fulfill orders on the go without opening Discord. It talks to your Go Core API.
 Let's establish the foundations for both distinct Kotlin projects.
+
 Project 1: SysAdmin Command Center (Recap)
 We established the foundation for this in our previous conversation.
  * Target User: You (Super Admin).
@@ -10,15 +11,19 @@ We established the foundation for this in our previous conversation.
  * Current Status: You have the basic scaffold code (ViewModel, Mock Repository, and UI list).
  * Next Steps (when you return to it): Implementing the actual SSH connection layer (using a library like SSHJ) to turn the mock buttons into real server commands.
 We will set this project aside for now to focus on scaffolding the new one.
+
 Project 2: The C500 Seller's Marketplace Dashboard
 This is a new, distinct Android project.
-The Vision:
+
+The Vision: 
 Currently, builders have to use slash commands in Discord (/c500 dashboard, /c500 ship) to manage their business. This native app gives them a professional, dedicated interface on their phone to do the same things faster and with better visuals.
-MVP Features for Day 1:
+
+MVP Features for Day 1: 
  * Secure Login: Builders authenticate (likely via Discord OAuth flow eventually, but simple ID login for dev).
  * The Dashboard Tab: A graphical view of the stats the Go API already provides (Active Listings, Pending Orders, Escrow Balance).
  * The Orders Tab: A list of orders waiting to be fulfilled.
  * Fulfillment Actions: Tapping an order lets them hit "Go Live" (triggering Twitch verification) or enter a Tracking Number to release funds.
+
 Technical Architecture (Seller App)
 We will use the same modern standard as the SysAdmin app for consistency.
  * UI: Jetpack Compose (Crucial for the cozy aesthetic).
@@ -28,6 +33,7 @@ We will use the same modern standard as the SysAdmin app for consistency.
  * Dependency Injection: Hilt (Recommended for managing API clients).
 Scaffolding code for the Seller App
 Let's lay the groundwork. We need to define the data models in Kotlin that match what your Go API is already sending back in JSON.
+
 Step 1: Add Dependencies (build.gradle.kts - Module)
 Besides standard Compose setup, add networking libraries.
 
